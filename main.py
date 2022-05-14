@@ -8,8 +8,7 @@ from arrayGenerator import get_full_stack_part_time,get_full_stack_full_time,get
 
 where_to_write = "Sheet1!A1"
 where_to_read = where_to_write
-# data_result = read_sheets(where_to_read, SPREADSHEET_ID)
-# print(data_result)
+
 
 es_holidays = holidays.Spain()
 holiday_names = holidays.country_holidays('ES', subdiv='CT')
@@ -19,7 +18,7 @@ holiday_names = holidays.country_holidays('ES', subdiv='CT')
 start_date = input("What's the date the course will start? FORMAT: '2/24/2020' ")
 end_date = input("What's the date the course will end? FORMAT: '2/24/2020' ")
 
-cohort = input("What's the cohort?  FORMAT: 'FSPT' or 'FSFT' ")
+cohort = input("What's the cohort?  FORMAT: 'FSPT', 'FSFT' OR 'PM' ")
 if cohort == "FSPT":
     cohort_list = get_full_stack_part_time()
 elif cohort == "FSFT":
@@ -53,7 +52,7 @@ for i in range(len(cohort_list)):
                 
 
 counter = 1
-print(cohort_list)
+
 # Check if there's already something written in the sheet
 while read_sheets(where_to_read,SPREADSHEET_ID) != []:
         counter += 1
@@ -64,7 +63,7 @@ for i in range(len(cohort_list)):
     for j in range(len(cohort_list[i]["week_day"])):
         cohort_list[i]["sentence"].append(cohort_list[i]["date"][j] +": "+ cohort_list[i]["class_title"][j])
 
-# print(full_stack_full_time[0])
+
 for item in cohort_list:
     write_final_result([[item["Week"]]], "Sheet1!A{counter}".format(counter=counter), SPREADSHEET_ID)
     counter += 1
