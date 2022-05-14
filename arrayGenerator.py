@@ -263,30 +263,30 @@ def get_product_management():
             "week_day": ["Tuesday", "Thursday"],
             "date": [],
             "sentence": [],
-            "class_title": ["Scoping your MVP", "Scoping your MVP"]
+            "class_title": ["Scoping your MVP", "Design and Delivery"]
         },{
             "Week": "Week 6",
             "week_day": ["Tuesday", "Thursday"],
             "date": [],
             "sentence": [],
-            "class_title": ["Design and Delivery", "Design and Delivery"]
+            "class_title": [ "Design and Delivery","Leveraging Analytics for Product Reviews"]
         },{
             "Week": "Week 7",
             "week_day": ["Tuesday", "Thursday"],
             "date": [],
             "sentence": [],
-            "class_title": ["Leveraging Analytics for Product Reviews", "JIRA + Confluence + UX Tools + Mapping Tools (Miro type)"]
+            "class_title": ["JIRA + Confluence + UX Tools + Mapping Tools (Miro type)","Launch Strategies & Review"]
         },{
             "Week": "Week 8",
             "week_day": ["Tuesday", "Thursday"],
             "date": [],
             "sentence": [],
-            "class_title": ["Launch Strategies & Review", "Sharpening Skills"]
+            "class_title": ["Sharpening Skills","Conflict management & career tips"]
         },{
             "Week": "Week 9",
             "week_day": ["Tuesday", "Thursday"],
             "date": [],
             "sentence": [],
-            "class_title": ["Conflict management & career tips","Final Presentations"]
+            "class_title": ["Final Presentations", ""]
         }
     ]
