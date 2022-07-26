@@ -4,7 +4,7 @@ import holidays
 from datetime import date
 import time
 SPREADSHEET_ID = '12nqjSOKMlWhhbg6F6yRWVaKU00qq2nr-pCcxFmz4cGg'
-from arrayGenerator import get_full_stack_part_time,get_full_stack_full_time,get_product_management
+from arrayGenerator import get_full_stack_part_time,get_full_stack_full_time,get_product_management,get_datascience_partime
 
 where_to_write = "Sheet1!A1"
 where_to_read = where_to_write
@@ -18,14 +18,15 @@ holiday_names = holidays.country_holidays('ES', subdiv='CT')
 start_date = input("What's the date the course will start? FORMAT: '2/24/2020' ")
 end_date = input("What's the date the course will end? FORMAT: '2/24/2020' ")
 
-cohort = input("What's the cohort?  FORMAT: 'FSPT', 'FSFT' OR 'PM' ")
+cohort = input("What's the cohort?  FORMAT: 'FSPT', 'FSFT', 'DS' OR 'PM' ")
 if cohort == "FSPT":
     cohort_list = get_full_stack_part_time()
 elif cohort == "FSFT":
     cohort_list = get_full_stack_full_time()
 elif cohort == "PM":
     cohort_list = get_product_management()
-
+elif cohort == "DS":
+    cohort_list = get_datascience_partime()
 #Filter Holidays
 holidays_list = []
 if cohort == "FSPT":
@@ -34,6 +35,8 @@ elif cohort == "FSFT":
      dates_list = pd.bdate_range(start=start_date, end=end_date,freq='B')
 elif cohort == "PM":
     dates_list = pd.bdate_range(start=start_date, end=end_date,freq='C',weekmask='Tue Thu')
+elif cohort == "DS":
+    dates_list = pd.bdate_range(start=start_date, end=end_date,freq='C',weekmask='Mon Thu')
 for item in dates_list:
     if holiday_names.get(item.strftime("%m/%d/%Y")) != None:        
         holidays_list.append(item.strftime("%A %B %d")+" HOLIDAY")

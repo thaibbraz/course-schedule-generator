@@ -290,3 +290,165 @@ def get_product_management():
             "class_title": ["Final Presentations", ""]
         }
     ]
+def get_datascience_partime():
+
+    return [
+            {
+            "Week": "Week 1",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Dev Environment"," Python and Jupyter Notebook"]
+        },{
+            "Week": "Week 2",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Variables, Functions, and Exceptions","Conditionals and Loops"]
+        },{
+            "Week": "Week 3",
+            "week_day":["Monday", "Thursday", "Saturday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Lists, Tuples, and Dictionaries","LObject Oriented Programming (OOP)","Modules, Packages, and JSON"]
+        },{
+            "Week": "Week 4",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Q&A and Module Review","Test"]
+        },{
+            "Week": "Week 5",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Pitch about DS in the professional environment and SQL","SQL - Relational Databases"]
+        },{
+            "Week": "Week 6",
+            "week_day":["Monday", "Thursday","Saturday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["NoSQL","Big Data Infrastructure","Q&A and Module Review"]
+        },{
+            "Week": "Week 7",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Test","Pandas: Dataframes, Descriptive statistics, Correlation"]
+        },{
+            "Week": "Week 8",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Visualization and Probability Distribution", "Folium: Geospatial data"]
+        },{
+            "Week": "Week 9",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Datetime: Time Series data","Feature Engineering"]
+        },{
+            "Week": "Week 10",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Process of Solving Any ML Problems","Linear Regression"]
+        },{
+            "Week": "Week 11",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Intro to Classification","Objective Functions and Optimization"]
+        },   {
+            "Week": "Week 12",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Model Selection (Bias-Variance Tradeoff and Cross-Validation)","Nonlinear Regressions/Classifications"]
+        },{
+            "Week": "Week 13",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Statistics & Machine Learning - Unsupervised Learning","Review of Module"]
+        },{
+            "Week": "Week 14",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Neural Networks I", "Neural Networks II"]
+        },{
+            "Week": "Week 15",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Neural Networks III","Natural Language Processing - Text Processing"]
+        },{
+            "Week": "Week 16",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Natural Language Processing - Text Classification","Natural Language Processing - Unsupervised Methods"]
+        },{
+            "Week": "Week 17",
+            "week_day":["Monday", "Thursday","Saturday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Recommender Systems I","Recommender Systems II","Recommender Systems III"]
+        },{
+            "Week": "Week 18",
+            "week_day":["Monday", "Thursday","Saturday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["A/B Testing and Causal Inference I","A/B Testing and Causal Inference II","A/B Testing and Causal Inference III"]
+        },{
+            "Week": "Week 19",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Solo Projects and Dashboard Demo","Project 1:1s with Instructor"]
+        },{
+            "Week": "Week 20",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Project 1:1s with Instructor","Project 1:1s with Instructor"]
+        },{
+            "Week": "Week 21",
+            "week_day":["Monday", "Thursday","Saturday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["PoC Project Presentations","Collaborative Project and Data Sources Presentations","Project 1:1s with Instructor"]
+        },{
+            "Week": "Week 22",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Project 1:1s with Instructor","Project 1:1s with Instructor"]
+        },{
+            "Week": "Week 23",
+            "week_day":["Monday", "Thursday","Saturday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Project 1:1s with Instructor","Project 1:1s with Instructor","Project 1:1s with Instructor"]
+        },{
+            "Week": "Week 24",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Project 1:1s with Instructor","Final Project Presentation"]
+        },{
+            "Week": "Week 25",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Career Week","Career Week"]
+        },{
+            "Week": "Week 26",
+            "week_day":["Monday", "Thursday"],
+            "date": [],
+            "sentence": [],
+            "class_title": ["Career Week","Career Prep & Graduation"]
+        }
+
+    ]
